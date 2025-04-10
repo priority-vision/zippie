@@ -1,0 +1,40 @@
+{
+	"name": "distzip",
+	"version": "0.0.1",
+	"description": "CLI tool to create zip archives using a configuration file",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:priority-vision/distzip.git"
+	},
+	"author": "Priority Vision <https://priority.vision>",
+	"type": "module",
+	"bin": {
+		"distzip": "./cli.js"
+	},
+	"files": [
+		"cli.js",
+		"lib"
+	],
+	"keywords": [
+		"cli",
+		"zip",
+		"archive",
+		"configuration",
+		"pattern",
+		"glob"
+	],
+	"scripts": {
+		"test": "ava"
+	},
+	"dependencies": {
+		"archiver": "^7.0.1",
+		"chalk": "^5.4.1",
+		"glob": "^11.0.1",
+		"meow": "^13.2.0",
+		"ora": "^8.2.0"
+	},
+	"devDependencies": {
+		"ava": "^6.2.0"
+	}
+}
