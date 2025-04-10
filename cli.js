@@ -4,7 +4,7 @@ import createZip from './lib/command-create.js';
 
 const cli = meow(`
 	Usage
-	  $ distzip [destination] [options]
+	  $ zippie [destination] [options]
 
 	Arguments
 	  destination    Path to the output zip file (default: output.zip)
@@ -15,10 +15,10 @@ const cli = meow(`
 	  --verbose, -v  Show verbose output
 
 	Examples
-	  $ distzip
-	  $ distzip dist/theme.zip
-	  $ distzip --config custom-config.txt
-	  $ distzip theme.zip --verbose
+	  $ zippie
+	  $ zippie dist/theme.zip
+	  $ zippie --config custom-config.txt
+	  $ zippie theme.zip --verbose
 `, {
 	importMeta: import.meta,
 	flags: {

@@ -1,16 +1,16 @@
 {
-	"name": "distzip",
+	"name": "zippie",
 	"version": "0.0.1",
 	"description": "CLI tool to create zip archives using a configuration file",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:priority-vision/distzip.git"
+		"url": "git@github.com:priority-vision/zippie.git"
 	},
 	"author": "Priority Vision <https://priority.vision>",
 	"type": "module",
 	"bin": {
-		"distzip": "./cli.js"
+		"zippie": "./cli.js"
 	},
 	"files": [
 		"cli.js",

@@ -1,10 +1,10 @@
-# Distzip
+# Zippie
 
 CLI tool to create zip archives using a configuration file.
 
 ## Table of Contents
 
-- [Distzip](#distzip)
+- [Zippie](#zippie)
 	- [Table of Contents](#table-of-contents)
 	- [Installation](#installation)
 	- [Usage](#usage)
@@ -17,27 +17,27 @@ CLI tool to create zip archives using a configuration file.
 
 ## Installation
 
-Ensure you have Node.js installed. Then, install Distzip globally using npm:
+Ensure you have Node.js installed. Then, install Zippie globally using npm:
 
 ```bash
-npm install -g distzip
+npm install -g zippie
 ```
 
 or install locally in your project:
 
 ```bash
-npm install -D distzip
+npm install -D zippie
 ```
 
 ## Usage
 
 ```bash
-distzip [destination] [options]
+zippie [destination] [options]
 ```
 
 ## Configuration File
 
-Distzip uses a configuration file (default: `.distzip`) to specify which files to include in the zip archive. The file format is simple:
+Zippie uses a configuration file (default: `.distzip`) to specify which files to include in the zip archive. The file format is simple:
 
 - Each line represents a pattern to include
 - Lines starting with `#` are treated as comments
@@ -67,7 +67,7 @@ Distzip uses a configuration file (default: `.distzip`) to specify which files t
 ## Commands and Options
 
 ```bash
-distzip [destination] [options]
+zippie [destination] [options]
 ```
 
 | Argument     | Description                                | Default     |
@@ -85,38 +85,38 @@ distzip [destination] [options]
 Create a zip file using the default configuration:
 
 ```bash
-distzip
+zippie
 ```
 
 Specify a custom destination:
 
 ```bash
-distzip dist/theme.zip
+zippie dist/theme.zip
 ```
 
 Use a custom configuration file:
 
 ```bash
-distzip --config custom-config.txt
+zippie --config custom-config.txt
 ```
 
 Show verbose output:
 
 ```bash
-distzip theme.zip --verbose
+zippie theme.zip --verbose
 ```
 
 ## Developer Setup
 
 1. Fork this repo
-2. `git clone https://github.com/priority-vision/distzip.git path/to/your/workspace`
+2. `git clone https://github.com/priority-vision/zippie.git path/to/your/workspace`
 3. `cd path/to/your/workspace`
 4. `npm install`
 
 To run the CLI using your workspace files:
 
 1. `npm link`
-2. `distzip [destination] [options]` (you can run anywhere on your system)
+2. `zippie [destination] [options]` (you can run anywhere on your system)
 
 ## Copyright & License
 
