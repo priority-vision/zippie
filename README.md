@@ -1,19 +1,18 @@
-# Zippie
+# Zippie <!-- omit in toc -->
 
 CLI tool to create zip archives using a configuration file.
 
 ## Table of Contents
 
-- [Zippie](#zippie)
-	- [Table of Contents](#table-of-contents)
-	- [Installation](#installation)
-	- [Usage](#usage)
-	- [Configuration File](#configuration-file)
-		- [Supported Pattern Types](#supported-pattern-types)
-	- [Commands and Options](#commands-and-options)
-	- [Examples](#examples)
-	- [Developer Setup](#developer-setup)
-	- [Copyright \& License](#copyright--license)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration File](#configuration-file)
+	- [Supported Pattern Types](#supported-pattern-types)
+- [Commands and Options](#commands-and-options)
+- [Examples](#examples)
+- [Developer Setup](#developer-setup)
+- [Copyright \& License](#copyright--license)
 
 ## Installation
 
