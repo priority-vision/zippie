@@ -28,13 +28,18 @@
 		"test": "ava"
 	},
 	"dependencies": {
-		"archiver": "^7.0.1",
+		"archiver": "^8.0.0",
 		"chalk": "^5.4.1",
-		"glob": "^11.0.1",
+		"glob": "^14.0.6",
 		"meow": "^13.2.0",
 		"ora": "^8.2.0"
 	},
 	"devDependencies": {
 		"ava": "^6.2.0"
+	},
+	"overrides": {
+		"readdir-glob": {
+			"minimatch": "^11.0.9"
+		}
 	}
 }
